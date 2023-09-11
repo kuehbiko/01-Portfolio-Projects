@@ -10,7 +10,7 @@
 **Tools:** Python (pandas, numpy, plotly) \
 **Description:** Analyzed and wrangled over 2 million rows of Lyft Baywheels trip data from 2022 to understand how the company can better cater to the needs of different groups of customers. From extensive analysis, determined that:
 - Members are more likely to use the bikes as reliable transportation to work during peak hours, while casual users prefer to use bikes for leisure during offpeak hours and on weekdays. Thus provide fast and reliable electric bikes for members, and comfortable classic bikes for casual users 
-- Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear and the company may wish to check on the condition of these bikes more often
+- Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear. The company may wish to check on the condition of these bikes more often
 - Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight. 
 
 
