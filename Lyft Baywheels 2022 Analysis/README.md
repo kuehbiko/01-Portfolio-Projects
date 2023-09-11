@@ -1,26 +1,29 @@
 Note: I discovered after uploading this notebook to github that plotly graphs do not display well on github webpages. I am currently attempting to fix this.
 
-# Lyft Bayweheels 2022 Analysis
+# Lyft Baywheels 2022 Analysis
 
 ## Project Goal
-We are approaching this dataset from the point of view of the company Lyft with the following questions:
+We are approaching this dataset from the point of view of the operators of this rideshare program, Lyft, with the following questions:
 - Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?
 - Do the needs of the customers differ by the type of bike they use? How do they differ and how can the company cater to these needs?
 - Are there certain stations that should be targeted for overnight rebalancing?
 
 Per [Freund et al. pg 2](https://people.orie.cornell.edu/shane/pubs/BSOvernight.pdf), 'rebalancing' is an optimization problem that refers to meeting demand at certain stations by relocating them and temporarily increasing station capacity, and is a key challenge faced by operators providing such rideshare services.
 
-## The Data
+## Data
 The dataset contains over 2.5 million records of individual rides made via a bike-sharing system covering the greater San Francisco Bay area in 2022. The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
-## Data Analysis
+## Analysis
+Here are some of the most notable trends we found:
 
-The number of trips increase in Q2 and Q3 of the year and decreases sharply around Q4.
-The number of trips are higher during the weekdays and lower during the weekends. Conversely, median duration of trips are lower during the weekdays and higher during the weekends, although the median distance of trips have little variance over the week. Overall, there are more trips on weekdays but longer trips on weekends, but no difference in trip distance.
-The number of trips are at the highest during peak hours (8am and 5pm), while the median duration of trips are highest at 2pm. The median distance of trips is one of the highest at 5am. Overally, there are more trips during peak hours but trip duration remains largely the same throughout the day (9 min).
+There are more trips by members on weekdays, and more trips by casual users on weekends. By tallying both, we can see that the number of trips are higher during the weekdays and lower during the weekends. Conversely, median duration of trips are lower during the weekdays and higher during the weekends
+![newplot (28)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/105becf9-8d8b-4849-8d4b-dfb987a8c690)
+![newplot (29)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/723f7d58-df3a-46b7-a031-ca42ee452928)
 
-57.5& of users are members; 42.5% are casual users.
-There are more trips by members on weekdays, and more trips by casuals on weekends. For all days, members have shorter trips (both duration and distance) than casual users on all days. The most notable difference occurs on the weekends where casual users appear to prefer cycling for longer durations.
+For all days, members have shorter trips (both duration and distance) than casual users on all days. The most notable difference occurs on the weekends where casual users appear to prefer cycling for longer durations.
+
+
+
 The usage by members are clustered around peak hours while casual usage is more spread out over the day. Median duration of trips by casual customers are significantly higher from 10am-3pm, while median distance travelled by members are significantly higher from 4-8am.
 
 65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. Classic bike trip durations are longer during the weekend, while electric bike trip distances are longer than classic bike trip distances for all days.
