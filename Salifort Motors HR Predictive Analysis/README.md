@@ -1,6 +1,4 @@
-The following sections are great to include in your README: 
-
-# Project Title
+# Salifort Motors HR Analysis: Binary Classification to Predict Employees At Risk of Leaving
 
 Including a descriptive title that states the type of analysis and project draws in your prospective employer. Do not title your project “Portfolio Project”; instead try adding the modeling algorithm and data used to your title. For example: “Natural Language Processing of Election Day Tweets.”
 
