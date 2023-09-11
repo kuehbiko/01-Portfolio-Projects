@@ -20,19 +20,19 @@ There are more trips by members on weekdays, and more trips by casual users on w
 ![newplot (28)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/105becf9-8d8b-4849-8d4b-dfb987a8c690)
 ![newplot (29)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/723f7d58-df3a-46b7-a031-ca42ee452928)
 
-For all days, members have shorter trips (both duration and distance) than casual users on all days. The most notable difference occurs on the weekends where casual users appear to prefer cycling for longer durations.
+For all days, members have shorter trips (both duration and distance) than casual users on all days.
+![newplot (30)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/66fabcb9-d6cb-47b9-b17d-171a158b5706)
 
+The usage by members are clustered around peak hours while casual usage is more spread out over the day.
+![newplot (31)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/5e7082f4-8b81-4076-8fdf-07668478b7c3)
 
-
-The usage by members are clustered around peak hours while casual usage is more spread out over the day. Median duration of trips by casual customers are significantly higher from 10am-3pm, while median distance travelled by members are significantly higher from 4-8am.
-
-65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. Classic bike trip durations are longer during the weekend, while electric bike trip distances are longer than classic bike trip distances for all days.
+65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. The median duration of a classic bike trip is longer on the weekends. The median sitance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
+![newplot (32)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/2685f4cb-b94c-4919-a47f-9001b656b945)
+![newplot (33)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/557a82f0-fc6f-4b7f-abb8-6365ac43d14b)
 
 The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic.
 Over the week, he demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends.
 The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am
-
-
 
 ## Recommendations
 **Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?**
