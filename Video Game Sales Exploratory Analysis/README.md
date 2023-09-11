@@ -1,11 +1,11 @@
 # Video Game Sales Exploratory Data Analysis
 
-## Project Goals
+## Project Overview
 We are approaching this project from the view of a video game retailer who has the followeing questions:
 - Are video game sales likely to be profitable in the near future? If so, what kind of video games are expected to be popular?
 - If the retailer is looking to expand their business overseas, is there anything they should take note of?
 
-## The Data
+## Data
 The data being analyzed is video game sales data from 1980 to 2016 taken from Kaggle (here)[https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings]. It is a record of video game sales scraped from the website (vgchartz.com)[https://www.vgchartz.com] and their corresponding MetaCritic scores and ESRB ratings.
 
 ## Data Analysis
