@@ -1,6 +1,6 @@
 # Portfolio Guide
 
-### Salifort Motors HR Predictive Analysis
+### [Salifort Motors HR Predictive Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Salifort%20Motors%20HR%20Predictive%20Analysis)
 **Topics:** Data Analysis, Predictive Analysis, HR Analysis, Machine Learning, Logistic Regression, Decision Tree \
 **Tools:** Python (pandas, scipy, sci-kit learn, seaborn, matplotlib) \
 **Description:** Explored and analyzed employee data to determine the key variables that cause employees to leave the company and predicted the employees most at risk of leaving. Constructed and compared two binary classification models (a logistic regression and decision tree model) with cross-validation to achieve the most accurate result. The decision tree model achieved an accuracy of 98%, which outperformed the accuracy of the logistic regression model (82%). The most significant factors that lead to an employee leaving by descending order or gini importance are: satisfaction, last evaluation score and number of projects worked on.
