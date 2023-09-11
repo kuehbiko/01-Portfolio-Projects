@@ -26,7 +26,7 @@
 - Through hypothesis testing, found that the average user ratings of the Xbox One and PC platforms are the same, while the average user ratings for Action and Sports genres are different.
 - Finally, provided recommendations on potentially popular platforms, genres for video game sales to boost revenue for video game retailers.
 
-### 💿 Sakila Analysis with SQL
+### [💿 Sakila Analysis with SQL](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Sakila%20PostgreSQL%20Data%20Exploration)
 **Topics:** Complex JOINs, Aggregation, GROUP BY, WHERE/HAVING, Temp Tables \
 **Tools:** PostgreSQL \
 **Description:** Using PostgreSQL, analyzed the Sakila database of DVD rental stores. Queries include:
