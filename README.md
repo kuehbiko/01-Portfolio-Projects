@@ -14,7 +14,7 @@
 - Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight. 
 
 
-### [🎮 Video Game Sales Exploratory Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Video%20Game%20Sales%20Exploratory%20Analysis)
+### [🎮 Video Game Sales Exploratory Analysis and Hypothesis Testing](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Video%20Game%20Sales%20Exploratory%20Analysis)
 **Topics:** Data Analysis, Exploratory Data Analysis, Data Cleaning, Data Wrangling, Data Visualization, Hypothesis Testing \
 **Tools:** Python (pandas, numpy, seaborn, matplotlib) \
 **Description:** Analyzed historical video game sales data from 1980 to 2016 to understand what kinds of video games are popular in the current market and how video game retailers can use this to increase revenue. Wrangled data with over 8000 missing and duplicate values. Fixed data errors, filled in missing values using secondary sources. Visualized trends of consumer preferences of genre, platform and publisher. Constructed a profile of consumers per region, noting significant difference between Western and Japanese consumer preferences. Through hypothesis testing, found that the average user ratings of the Xbox One and PC platforms are the same, while the average user ratings for Action and Sports genres are different. Finally, provided recommendations on potentially popular platforms, genres for video game sales to boost revenue for video game retailers.
