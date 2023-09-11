@@ -1,7 +1,5 @@
 # Salifort Motors HR Analysis: Binary Classification to Predict Employees At Risk of Leaving
 
-Including a descriptive title that states the type of analysis and project draws in your prospective employer. Do not title your project “Portfolio Project”; instead try adding the modeling algorithm and data used to your title. For example: “Natural Language Processing of Election Day Tweets.”
-
 ## Project Overview
 
 A project overview should be a few sentences long stating the problem you solved, what data was used in the project, and your modeling results. 
