@@ -5,7 +5,7 @@
 **Tools:** Python (pandas, scipy, sci-kit learn, seaborn, matplotlib) \
 **Description:** Explored and analyzed employee data to determine the key variables that cause employees to leave the company and predicted the employees most at risk of leaving. Constructed and compared two binary classification models (a logistic regression and decision tree model) with cross-validation to achieve the most accurate result. The decision tree model achieved an accuracy of 98%, which outperformed the accuracy of the logistic regression model (82%). The most significant factors that lead to an employee leaving by descending order or gini importance are: satisfaction, last evaluation score and number of projects worked on.
 
-### 🚲 Lyft Baywheels 2022 Analysis 
+### 🚲 Lyft Baywheels 2022 Exploratoary Analysis 
 **Topics:** Data Analysis, Exploratory Data Analysis, Data Cleaning, Data Wrangling, Data Visualization \
 **Tools:** Python (pandas, numpy, plotly) \
 **Description:** Analyzed and wrangled over 2 million rows of Lyft Baywheels trip data from 2022 to understand how the company can better cater to the needs of different groups of customers. From extensive analysis, determined that:
