@@ -1,4 +1,4 @@
-# Salifort Motors HR Analysis: Binary Classification to Predict Employees At Risk of Leaving
+# Salifort Motors HR Analysis with Binary Classification
 
 ## Project Overview
 
