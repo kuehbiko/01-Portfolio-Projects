@@ -30,8 +30,8 @@ The usage by members are clustered around peak hours while casual usage is more 
 ![newplot (32)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/2685f4cb-b94c-4919-a47f-9001b656b945)
 ![newplot (33)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/557a82f0-fc6f-4b7f-abb8-6365ac43d14b)
 
-The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic.
-Over the week, he demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends.
+The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic. \
+Over the week, he demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends. \
 The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am
 
 ## Recommendations
