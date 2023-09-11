@@ -5,6 +5,14 @@
 **Tools:** Python (pandas, scipy, sci-kit learn, seaborn, matplotlib) \
 **Description:** Explored and analyzed employee data to determine the key variables that cause employees to leave the company and predicted the employees most at risk of leaving. Constructed and compared two binary classification models (a logistic regression and decision tree model) with cross-validation to achieve the most accurate result. The decision tree model achieved an accuracy of 98%, which outperformed the accuracy of the logistic regression model (82%). The most significant factors that lead to an employee leaving by descending order or gini importance are: satisfaction, last evaluation score and number of projects worked on.
 
+### Lyft Baywheels 2022 Analysis
+**Topics:** Data Analysis, Exploratory Data Analysis, Data Cleaning, Data Wrangling, Data Visualization \
+**Tools:** Python (pandas, numpy, plotly)
+**Description:** Analyzed and wrangled over 2 million rows of Lyft Baywheels trip data from 2022 to understand how the company can better cater to the needs of different groups of customers. From extensive analysis, determined that:
+- Members are more likely to use the bikes as reliable transportation to work during peak hours, while casual users prefer to use bikes for leisure during offpeak hours and on weekdays. Thus provide fast and reliable electric bikes for members, and comfortable classic bikes for casual users 
+- Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear and the company may wish to check on the condition of these bikes more often
+- Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight. 
+
 
 ### [Video Game Sales Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Video%20Game%20Sales%20Exploratory%20Analysis)
 **Topics:** Data Analysis, Exploratory Data Analysis, Data Cleaning, Data Wrangling, Data Visualization, Hypothesis Testing \
