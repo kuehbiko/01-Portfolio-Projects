@@ -1,5 +1,3 @@
-Note: I discovered after uploading this notebook to github that plotly graphs do not display well on github webpages. I am currently attempting to fix this.
-
 # Lyft Baywheels 2022 Analysis
 
 ## Project Goal
