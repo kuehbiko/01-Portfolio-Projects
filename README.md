@@ -8,7 +8,7 @@
 - The decision tree model achieved an accuracy of 98%, which outperformed the accuracy of the logistic regression model (82%).
 - The most significant factors that lead to an employee leaving by descending order or gini importance are: satisfaction, last evaluation score and number of projects worked on.
 
-### [🚲 Lyft Baywheels 2022 Exploratory Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Lyft%20Baywheels%202022%20Analysis)
+### [🚲 Lyft Baywheels 2022 Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Lyft%20Baywheels%202022%20Analysis)
 **Topics:** Data Analysis, Exploratory Data Analysis, Data Cleaning, Data Wrangling, Data Visualization \
 **Tools:** Python (pandas, numpy, plotly) \
 **Description:** Analyzed and wrangled over 2 million rows of Lyft Baywheels trip data from 2022 to understand how the company can better cater to the needs of different groups of customers. From extensive analysis, determined that:
