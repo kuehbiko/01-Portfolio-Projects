@@ -54,7 +54,8 @@ Baywheels user can be split into subscribers and non-subscribers. Subscriber tak
 For example, we can see in the below chart that subscribers use bikes more often on weekdays, while non-subscribers prefer trips on weekends. At the same time, subscribers tend to take shorter trips with smaller distances compared to non-subscribers. 
 ![newplot (4)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/afb0baf1-43ff-46d3-8e75-6fbf29ec22df)
 ![newplot (5)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/6d9c2a18-204a-4e1e-bd6f-49c59aa1b2c5)
-![newplot (6)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/9a4afb51-c087-4a05-913e-923aea49c5c6)
+![newplot (15)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/01357715-103a-4eb6-9165-bb9cae7b7c64)
+
 
 Let's also see the breakdown of number of trips for every hour of a typical weekday. The number of bike trips by subscribers is extremely clustered around the peak hours of 8am and 5pm.
 ![newplot (7)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/79669de9-8692-46e5-b643-0ddbab1a2f28)
