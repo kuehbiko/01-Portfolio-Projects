@@ -48,16 +48,17 @@ The original data is available on [Lyft's System Data page](https://www.lyft.com
 
 #### Subscribers vs. Non-Subscribers
 Baywheels user can be split into subscribers and non-subscribers. Subscriber take up 
+![newplot (3)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/624d4f0a-8c05-47d1-ae7c-611f67efaac1)
 
-[pie chart of subscribers vs non-subscribers]
 
 For example, we can see in the below chart that subscribers use bikes more often on weekdays, while non-subscribers prefer trips on weekends. At the same time, subscribers tend to take shorter trips with smaller distances compared to non-subscribers. 
-
-[Side by side graphs of count, duration and distance]
+![newplot (4)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/afb0baf1-43ff-46d3-8e75-6fbf29ec22df)
+![newplot (5)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/6d9c2a18-204a-4e1e-bd6f-49c59aa1b2c5)
+![newplot (6)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/9a4afb51-c087-4a05-913e-923aea49c5c6)
 
 Let's also see the breakdown of number of trips for every hour of a typical weekday. The number of bike trips by subscribers is extremely clustered around the peak hours of 8am and 5pm.
-
-[Count, of trips by weekday, weekend]
+![newplot (7)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/79669de9-8692-46e5-b643-0ddbab1a2f28)
+![newplot (8)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/4fae0727-294a-4707-911d-e70f22bf6dfc)
 
 Constructing a profile of each type of user, we can say:
 - A subscriber is more likely to take shorter rides during peak hours on a weekday. This rider profile fits people who may be working adults or college students, and are on a committed schedule. This rider relies on Baywheels bikes to bring them to important destinations and will probably prefer fast and reliable transport.
@@ -66,15 +67,21 @@ Constructing a profile of each type of user, we can say:
 
 #### Electric Bikes vs. Classic Bikes
 Baywheels users can be split into electric bike users and classic bike users.
+![newplot (9)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/e2bb7c00-3350-4a0e-b75d-79b11894adbf)
 
 65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. The median duration of a classic bike trip is longer on the weekends. The median sitance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
-![newplot (32)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/2685f4cb-b94c-4919-a47f-9001b656b945)
-![newplot (33)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/557a82f0-fc6f-4b7f-abb8-6365ac43d14b)
+![newplot (10)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/24638344-5d90-475a-9ecb-02e39b1bc144)
+![newplot (11)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/df457299-6f9e-4f82-9387-919313253277)
+![newplot (12)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/7bcf4756-808d-492d-962c-6fe4d9496534)
+
 
 #### Stations With High Demand of Bikes
-The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic. \
-Over the week, he demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends. \
-The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am
+The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic. The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am.
+![newplot (13)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/eb5b1636-835e-4ebf-b125-1c8fe1b7322d)
+![newplot (14)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/6211df6f-08fc-4e31-a5bc-4c0f3448d6b8)
+
+Over the week, the demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends.
+
 
 ## Conclusions
 **Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?**
