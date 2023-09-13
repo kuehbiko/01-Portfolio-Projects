@@ -1,4 +1,4 @@
-# Lyft Baywheels 2022 Analysis
+# Lyft Baywheels 2022 Analysis and Simple Linear Optimization 
 
 ## Project Overview
 In this project, we analyzed Lyft Baywheels trip data from 2022 and suggested measures that could be taken to improve the experience of Baywheels users and increase customer satisfaction.
