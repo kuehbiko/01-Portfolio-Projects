@@ -34,6 +34,7 @@ The data is made up of over 2.5 million rows of data. Of this 2.5 million, 400,0
 The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
 ## Analysis
+#### Subscribers vs. Non-Subscribers
 Here are some of the most notable trends we found:
 
 There are more trips by members on weekdays, and more trips by casual users on weekends. By tallying both, we can see that the number of trips are higher during the weekdays and lower during the weekends. Conversely, median duration of trips are lower during the weekdays and higher during the weekends
@@ -46,10 +47,12 @@ For all days, members have shorter trips (both duration and distance) than casua
 The usage by members are clustered around peak hours while casual usage is more spread out over the day.
 ![newplot (31)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/5e7082f4-8b81-4076-8fdf-07668478b7c3)
 
+#### Electric Bikes vs. Classic Bikes
 65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. The median duration of a classic bike trip is longer on the weekends. The median sitance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
 ![newplot (32)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/2685f4cb-b94c-4919-a47f-9001b656b945)
 ![newplot (33)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/557a82f0-fc6f-4b7f-abb8-6365ac43d14b)
 
+#### Stations With High Demand of Bikes
 The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic. \
 Over the week, he demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends. \
 The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am
