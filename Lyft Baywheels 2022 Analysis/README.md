@@ -1,27 +1,39 @@
 # Lyft Baywheels 2022 Analysis
 
 ## Project Overview
-In this project, we analyzed over 2 million rows of Lyft Baywheels trip data from 2022 to understand the different types of Baywheels bikr users, and how the company can better cater to the needs of these different groups.
-
-We discovered that Baywheels users can be classified into:
-- Subscribers and non-subscribers, and
-- Electric bike users and Classic bike users
-
-We determined that:
-- Subscribers are more likely to use the bikes as reliable transportation during peak hours on the weekdays, while casual users prefer to use bikes for leisure during offpeak hours and on weekends. Thus provide fast and reliable electric bikes for members, and comfortable classic bikes for casual users
-- Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear. The company may wish to check on the condition of these bikes more often
-- Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight.
+In this project, we analyzed Lyft Baywheels trip data from 2022 and suggested measures that could be taken to improve the experience of Baywheels users and increase customer satisfaction.
 
 ## Business Understanding
-We are approaching this dataset from the point of view of the operators of this rideshare program, Lyft, with the following questions:
-- Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?
-- Do the needs of the customers differ by the type of bike they use? How do they differ and how can the company cater to these needs?
-- Are there certain stations that should be targeted for overnight rebalancing?
+We approach this analysis from the point of view of the operators of the Baywheels rideshare program, Lyft, to understand the different types of Baywheels bike users, and how the company can better cater to the needs of each user group, and as a whole.
 
-Per [Freund et al. pg 2](https://people.orie.cornell.edu/shane/pubs/BSOvernight.pdf), 'rebalancing' is an optimization problem that refers to meeting demand at certain stations by relocating them and temporarily increasing station capacity, and is a key challenge faced by operators providing such rideshare services.
+To achieve this, we aim to answer the following questions:
+1. Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?
+2. Do the needs of the customers differ by the type of bike they use? How do they differ and how can the company cater to these needs?
+3. At which stations can Lyft focus more on rebalancing efforts to alleviate bike shortage for Baywheels users?
+
+**What is rebalancing?** \
+Per [Freund et al. pg 2](https://people.orie.cornell.edu/shane/pubs/BSOvernight.pdf), rebalancing is an optimization problem that refers to meeting demand at certain stations by relocating them and temporarily increasing station capacity, and is a key challenge faced by operators providing such rideshare services.  
+
+In the most common approach, trucks are used to
+move bikes to high-demand areas. This is particularly effective overnight, when
+both traffic and demand are low. During the day, vehicular traffic impairs these
+efforts, and instead operators use trikes to transport a smaller number of bikes across stations, or corrals to artificially increase the capacity of stations.
+
+The optimization of rebalancing is a complex problem that we will only briefly touch on in this analysis.
+
+**Summary of Findings** \
+Overall, our findings can be summarized thus:
+1. 
+2.
+3.
+
 
 ## Data Understanding
-The dataset contains over 2.5 million records of individual rides made via a bike-sharing system covering the greater San Francisco Bay area in 2022. The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
+The dataset used contains records of individual rides made via a bike-sharing system covering the greater San Francisco Bay area in 2022. It provides details of each ride, such as a unique ride ID, start and end stations, start and end coordinates, bike type and membership type.
+
+The data is made up of over 2.5 million rows of data. Of this 2.5 million, 400,000 rows were missing the start, end, or both stations of trips, and 2000 rows were missing endpoint coordinates.
+
+The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
 ## Analysis
 Here are some of the most notable trends we found:
