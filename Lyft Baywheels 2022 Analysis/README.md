@@ -74,18 +74,11 @@ As we do not know the how many electric bikes and classic bikes that the operato
 At first glance, this ratio of electric bikes to classic bikes does not seem to change across the week. The ratio remains at approximately 1.8 with a slight peak on Friday, when it reaches 1.9 electric bikes to classic bikes.
 ![newplot (19)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/57f66fe5-c5ae-4d02-9578-5146e334ac4b)
 
-However, when we take a closer look at the ratio based on membership type, we notice a significant difference. For subscribers, the ratio of electric bikes to classic bikes has a lower ratio of 1.63, while non-subscribers significantly prefer electric bikes. Non-subscribers are at a whopping 2.2 electric bike rides to every classic bike ride! Electric bikes can carry the user a great distance with little effort on the user's part. On the other hand, a significant number of subscribers seem to prefer classic bikes more than electric bikes. A potential explanation might be that as working adults with a busy schedule, subscribers take the opportunity to use classic Baywheels bikes to travel and exercise at the same time.
+However, when we take a closer look at the ratio based on membership type, we notice a significant difference. For subscribers, the ratio of electric bikes to classic bikes has a lower ratio of 1.63, while non-subscribers significantly prefer electric bikes. Non-subscribers are at a whopping 2.2 electric bike rides to every classic bike ride! Electric bikes can carry the user a great distance with little effort on the user's part. On the other hand, a significant number of subscribers seem to prefer classic bikes more than electric bikes. 
 ![newplot (21)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/7dfac7c0-5311-41f4-918c-ffe78c62f5d3)
 
-
-We also note that the median duration of a classic bike trip tends to be longer towards the end of the week, 
-![newplot (11)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/df457299-6f9e-4f82-9387-919313253277)
-
-The median distance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
-![newplot (12)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/7bcf4756-808d-492d-962c-6fe4d9496534)
-
-Constructing a profile of each type of bike user, we can say:
-- The preference for electric bikes to 
+Also, we note that the median distance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
+![newplot (12)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/7bcf4756-808d-492d-962c-6fe4d9496534) 
 
 #### Stations With High Demand of Bikes
 The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic. The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am.
