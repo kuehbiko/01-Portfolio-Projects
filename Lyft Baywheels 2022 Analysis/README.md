@@ -1,6 +1,7 @@
 # Lyft Baywheels 2022 Analysis
 
-## Project Goal
+## Project Overview
+## Business Understanding
 We are approaching this dataset from the point of view of the operators of this rideshare program, Lyft, with the following questions:
 - Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?
 - Do the needs of the customers differ by the type of bike they use? How do they differ and how can the company cater to these needs?
@@ -8,7 +9,7 @@ We are approaching this dataset from the point of view of the operators of this 
 
 Per [Freund et al. pg 2](https://people.orie.cornell.edu/shane/pubs/BSOvernight.pdf), 'rebalancing' is an optimization problem that refers to meeting demand at certain stations by relocating them and temporarily increasing station capacity, and is a key challenge faced by operators providing such rideshare services.
 
-## Data
+## Data Understanding
 The dataset contains over 2.5 million records of individual rides made via a bike-sharing system covering the greater San Francisco Bay area in 2022. The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
 ## Analysis
@@ -32,7 +33,7 @@ The top 10 stations with the most outgoing traffic are also the stations with th
 Over the week, he demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway and the supply of bikes are greatest at North Point St at Polk St on the weekends. \
 The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am
 
-## Recommendations
+## Conclusions
 **Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?**
 
 The preferences of members and casual users are significantly different. Trips by members are shorter and more frequent during the peak hours of weekdays, while casual customers prefer trips that are longer and during off-peak hours or weekends. We can infer that most members are working adults or college students with a fixed schedule and need for reliable transportation. Casual customers on the other hand are more likely to make a trip out of convenience or spontaneity. Our data suggest their usage is more for leisure or enjoyment and not necessity.
@@ -51,7 +52,7 @@ Electric bikes accrue a higher mileage than classic bikes across all days of the
 
 In terms of rebalancing, the demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway. The company could take this into account during overnight rebalancing to provide more bikes to this station. Also, there is often a surplus of bikes at North Point St at Polk St. For efficient rebalancing, the company may consider funneling bikes from this station to stations with high daily demand.
 
-## Next Steps
+**Next Steps**
 Given the true location of each station and the cost of transporting bikes, there is an opportunity to optimize the rebalancing process of bikes, both overnight and during the day. This will allow the company to efficiently allocate resources to the rebalancing of bikes at each station with greater precision of the exact hour and minute when demand is the greatest (at the moment, we only have an estimate).
 
 We may also wish to further explore the preferences of members and casual users through binary classification techniques. This will allow us to identify the features that are most strongly associated with subscribers. This way, the company may be able to identify casual users that have to potential to become members. The company may then be able to send such users targeted adviertisements to convince them.
