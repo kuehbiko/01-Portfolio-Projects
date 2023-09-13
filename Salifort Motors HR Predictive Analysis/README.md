@@ -1,4 +1,4 @@
-# Salifort Motors HR Analysis with Binary Classification
+# Salifort Motors: HR Predictive Analysis with Binary Classification
 
 ## Project Overview
 
@@ -8,9 +8,12 @@ A project overview should be a few sentences long stating the problem you solved
 
 You should have a section that showcases the stakeholder(s) and the business problem you tried to solve. Feel free to add citations of research you did on your business problem here as well. 
 
-## Data Understanding 
+## Data Understanding
 
-Explain what data you used in your analysis, the timeframe of the data, and any data limitations. This is also a good section to add visualizations of your exploratory data analysis. 
+Explain what data you used in your analysis, the timeframe of the data, and any data limitations. 
+
+## Analysis
+This is also a good section to add visualizations of your exploratory data analysis. 
 
 ## Modeling and Evaluation 
 

@@ -1,14 +1,20 @@
 # Video Game Sales Exploratory Data Analysis
 
 ## Project Overview
-We are approaching this project from the view of a video game retailer who has the followeing questions:
-- Are video game sales likely to be profitable in the near future? If so, what kind of video games are expected to be popular?
-- If the retailer is looking to expand their business overseas, is there anything they should take note of?
+In this project, we analyzed video game sales data from 1980 to 2016 taken from the website vgchartz.com and suggested measures a video game retailer may take to increase their sales revenue in the next few years. 
 
-## Data
+## Business Overview
+We are approaching this project from the view of a video game retailer. We want to understand future trends in the global and regional video game industries, so that we can capitalize on these trends to boost our sales revenue. 
+To achieve our goal of understanding future trends, we can ask the following questions:
+1. What is the current trend of the video game sales industry? What kind of video games are expected to be popular in the future?
+2. If we are looking to expand our business overseas, what are some regional trends we should take note of?
+
+## Data Understanding
 The data being analyzed is video game sales data from 1980 to 2016 taken from Kaggle (here)[https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings]. It is a record of video game sales scraped from the website (vgchartz.com)[https://www.vgchartz.com] and their corresponding MetaCritic scores and ESRB ratings.
 
-## Data Analysis
+As a note, our data may be out of date for 2023, however for the sake of this project, let's assume that the 'current time' takes place in 2017, just after the collection of the data.
+
+## Analysis
 Through data analysis, we discovered a few things.
 
 The peak of total global sales as well as the highest number of game releases were in 2008-2009. Since then the video game industry appears to be in a decline. Almost 50% of all video game revenue is generated from customers in North America, while Europe and Japan account for ~25% and ~15% respectively.
@@ -31,7 +37,7 @@ There is also difference in terms of platform choice and preferred publisher bet
 
 Finally, we discovered that while user score is often reflective of critic score, neither metric has a significant impact on whether a game is popular or not. In general, there is a very weak correlation between critic score and video game sales. 
 
-## Recommendations
+## Conclusion
 **Are video game sales likely to be profitable in the near future? If so, what kind of video games are expected to be popular?**
 - It is clear that the video game industry is in decline. If the video game retailer wishes to continue in this line of business, we would recommend that they diversify their source of revenue. For example, they might want to implement joint promotions with partner shops that sell gaming-related products, like energy drinks or gaming peripherals.
 - Also, in searching for upcoming popular video games to retail, it is not advisable for the retailer to depend on the critic and user scores to determine popularity. The retailer should instead pay attention to the genre, publisher and platform of the video game. Specifically, console games of Action, Shooter and Role-playing genres. As video game sales are clustered amongst only a small number of hit games, it is especially important to bet correctly on upcoming popular video games.
