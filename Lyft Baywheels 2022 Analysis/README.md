@@ -37,7 +37,7 @@ With the datetime python package, we were able to create columns for:
 - Day the trip started
 - Hour of the day the trip started
 
-With the math python package, we were able to define the Haversine function in python. The Haversine distance can be defined as the angular distance between two locations on the Earth’s surface [[2](https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b). Using this function and the start/endpoint coordinates, we were able to create a new calculated column for the total distance of each trip in kilometers.
+With the math python package, we were able to define the Haversine function in python. The Haversine distance can be defined as the angular distance between two locations on the Earth’s surface [[2](https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b)]. Using this function and the start/endpoint coordinates, we were able to create a new calculated column for the total distance of each trip in kilometers.
 
 The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
