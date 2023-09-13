@@ -1,4 +1,4 @@
-# Lyft Baywheels 2022 Analysis and Simple Linear Optimization 
+# Lyft Baywheels 2022 Exploratory Data Analysis 
 
 ## Project Overview
 In this project, we analyzed Lyft Baywheels trip data from 2022 and suggested measures that could be taken to improve the experience of Baywheels users and increase customer satisfaction.
@@ -35,6 +35,7 @@ With the datetime python package, we were able to create columns for:
 - Trip duration in minutes
 - Month the trip started
 - Day the trip started
+  If the day is a weekday or a weekend
 - Hour of the day the trip started
 
 With the math python package, we were able to define the Haversine function in python. The Haversine distance can be defined as the angular distance between two locations on the Earth’s surface [[2](https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b)]. Using this function and the start/endpoint coordinates, we were able to create a new calculated column for the total distance of each trip in kilometers.
@@ -42,18 +43,30 @@ With the math python package, we were able to define the Haversine function in p
 The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
 ## Analysis
+#### All Users
+
+
 #### Subscribers vs. Non-Subscribers
-There are more trips by members on weekdays, and more trips by casual users on weekends. By tallying both, we can see that the number of trips are higher during the weekdays and lower during the weekends. Conversely, median duration of trips are lower during the weekdays and higher during the weekends
-![newplot (28)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/105becf9-8d8b-4849-8d4b-dfb987a8c690)
-![newplot (29)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/723f7d58-df3a-46b7-a031-ca42ee452928)
+Baywheels user can be split into subscribers and non-subscribers. Subscriber take up 
 
-For all days, members have shorter trips (both duration and distance) than casual users on all days.
-![newplot (30)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/66fabcb9-d6cb-47b9-b17d-171a158b5706)
+[pie chart of subscribers vs non-subscribers]
 
-The usage by members are clustered around peak hours while casual usage is more spread out over the day.
-![newplot (31)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/5e7082f4-8b81-4076-8fdf-07668478b7c3)
+For example, we can see in the below chart that subscribers use bikes more often on weekdays, while non-subscribers prefer trips on weekends. At the same time, subscribers tend to take shorter trips with smaller distances compared to non-subscribers. 
+
+[Side by side graphs of count, duration and distance]
+
+Let's also see the breakdown of number of trips for every hour of a typical weekday. The number of bike trips by subscribers is extremely clustered around the peak hours of 8am and 5pm.
+
+[Count, of trips by weekday, weekend]
+
+Constructing a profile of each type of user, we can say:
+- A subscriber is more likely to take shorter rides during peak hours on a weekday. This rider profile fits people who may be working adults or college students, and are on a committed schedule. This rider relies on Baywheels bikes to bring them to important destinations and will probably prefer fast and reliable transport.
+- A non-subscriber is more likely to take longer rides during non-peak hours on a weekend. This rider profile fits people who may have a more flexible schedule or does not use Baywheels bikes regularly. They may be more spontaneous in using Baywheels bikes, or use them for leisure or enjoyment. This rider will probably prefer slower and more comfortable bikes.
+
 
 #### Electric Bikes vs. Classic Bikes
+Baywheels users can be split into electric bike users and classic bike users.
+
 65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. The median duration of a classic bike trip is longer on the weekends. The median sitance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
 ![newplot (32)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/2685f4cb-b94c-4919-a47f-9001b656b945)
 ![newplot (33)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/557a82f0-fc6f-4b7f-abb8-6365ac43d14b)
@@ -66,7 +79,7 @@ The demand for bikes are the greatest at Howard St at Beale St, Salesforce Trans
 ## Conclusions
 **Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?**
 
-The preferences of members and casual users are significantly different. Trips by members are shorter and more frequent during the peak hours of weekdays, while casual customers prefer trips that are longer and during off-peak hours or weekends. We can infer that most members are working adults or college students with a fixed schedule and need for reliable transportation. Casual customers on the other hand are more likely to make a trip out of convenience or spontaneity. Our data suggest their usage is more for leisure or enjoyment and not necessity.
+The preferences of members and casual users are significantly different. Trips by members are shorter and more frequent during the peak hours of weekdays, while casual customers prefer trips that are longer and during off-peak hours or weekends. We can infer that most members are working adults or college students with a fixed schedule and need for reliable transportation. Casual customers on the other hand are more likely to make a trip out of convenience or spontaneity. 
 
 We recommend providing more electric bikes to members for speed and efficiency, and more classic bikes to casual users.
 
@@ -85,7 +98,7 @@ In terms of rebalancing, the demand for bikes are greatest at Page St at Masonic
 **Next Steps** \
 Given the true location of each station and the cost of transporting bikes, there is an opportunity to optimize the rebalancing process of bikes, both overnight and during the day. This will allow the company to efficiently allocate resources to the rebalancing of bikes at each station with greater precision of the exact hour and minute when demand is the greatest (at the moment, we only have an estimate).
 
-We may also wish to further explore the preferences of members and casual users through binary classification techniques. This will allow us to identify the features that are most strongly associated with subscribers. This way, the company may be able to identify casual users that have to potential to become members. The company may then be able to send such users targeted adviertisements to convince them.
+We will further explore the preferences of members and casual users through binary classification techniques. This will allow us to identify the features that are most strongly associated with subscribers. This way, the company may be able to identify casual users that have to potential to become members. The company may then be able to send such users targeted adviertisements to convince them. [See part 2 of the project here]().
 
 ## References:
 1.
