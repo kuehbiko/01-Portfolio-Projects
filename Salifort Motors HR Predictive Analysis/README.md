@@ -1,4 +1,4 @@
-# Salifort Motors HR Analysis with Binary Classification
+# Salifort Motors HR Predictive Analysis with Binary Classification
 
 ## Project Overview
 
