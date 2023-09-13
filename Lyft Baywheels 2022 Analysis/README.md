@@ -4,7 +4,7 @@
 In this project, we analyzed Lyft Baywheels trip data from 2022 and suggested measures that could be taken to improve the experience of Baywheels users and increase customer satisfaction.
 
 ## Business Understanding
-We approach this analysis from the point of view of the operators of the Baywheels rideshare program, Lyft, to understand the different types of Baywheels bike users, and how the company can better cater to the needs of each user group, and as a whole.
+We approach this analysis from the point of view of the operators of the Baywheels rideshare program, Lyft. We want to understand the different types of Baywheels bike users, and how the company can better cater to the needs users as a group, and as a whole.
 
 To achieve this, we aim to answer the following questions:
 1. Do the needs of the customers differ by membership type? How do they differ and how can the company cater to these needs?
