@@ -78,7 +78,7 @@ There is no significant preference for the type of bike provided by the service.
 
 Electric bikes accrue a higher mileage than classic bikes across all days of the week. Due to heavily usage, electric bikes may be at a higher risk of wear and tear compared to classic bikes. Therefore we would recommend that maintenance for electric bikes occur more frequently than classic bikes.
 
-**Are there certain stations that should be targeted for overnight rebalancing?**
+**3. At which stations can Lyft focus more on rebalancing efforts to alleviate bike shortage for Baywheels users?**
 
 In terms of rebalancing, the demand for bikes are greatest at Page St at Masonic Ave and Leavenworth St at Broadway. The company could take this into account during overnight rebalancing to provide more bikes to this station. Also, there is often a surplus of bikes at North Point St at Polk St. For efficient rebalancing, the company may consider funneling bikes from this station to stations with high daily demand.
 
