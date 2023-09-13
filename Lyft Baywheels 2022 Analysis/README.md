@@ -21,7 +21,7 @@ The optimization of rebalancing is a complex problem that we will only briefly t
 
 **Summary of Findings** \
 Overall, our findings can be summarized thus:
-1. Subscribers are more likely to use the bikes for short distances during peak hours on weekdays. Non-subscribers prefer to use bikes for leisure during offpeak hours and on weekends. Thus the company may provide fast and reliable electric bikes for members, and comfortable classic bikes for casual users
+1. Subscribers are more likely to use the bikes for short distances during peak hours on weekdays, they also tend to prefer classic bikes. Non-subscribers prefer to use electric bikes for convenience or leisure during offpeak hours and on weekends. When providing classic and electric bikes, the company should provide fast classic bikes and comfortable electric bikes in line with subscribers and non-subscribers' preferences.
 2. Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear. The company may wish to check on the condition of these bikes more often.
 3. Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day; more bikes can be allocated to these stations during rebalancing overnight. Howard St at Beale St and Post St at Kearny St stations have some of the highest mid-day deficits during evening rush hours; special effort can be taken during mid-day rebalancing to supply bikes to these stations at 5pm.
 
@@ -47,7 +47,7 @@ The original data is available on [Lyft's System Data page](https://www.lyft.com
 
 
 #### Subscribers vs. Non-Subscribers
-Baywheels user can be split into subscribers and non-subscribers. Subscriber take up 
+Baywheels user can be split into subscribers and non-subscribers. Subscriber take up 58% of the ridership and non-subscribers are 43%.
 ![newplot (3)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/624d4f0a-8c05-47d1-ae7c-611f67efaac1)
 
 
@@ -62,19 +62,30 @@ Let's also see the breakdown of number of trips for every hour of a typical week
 ![newplot (8)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/4fae0727-294a-4707-911d-e70f22bf6dfc)
 
 Constructing a profile of each type of user, we can say:
-- A subscriber is more likely to take shorter rides during peak hours on a weekday. This rider profile fits people who may be working adults or college students, and are on a committed schedule. This rider relies on Baywheels bikes to bring them to important destinations and will probably prefer fast and reliable transport.
-- A non-subscriber is more likely to take longer rides during non-peak hours on a weekend. This rider profile fits people who may have a more flexible schedule or does not use Baywheels bikes regularly. They may be more spontaneous in using Baywheels bikes, or use them for leisure or enjoyment. This rider will probably prefer slower and more comfortable bikes.
+- A subscriber is more likely to take shorter rides during peak hours on a weekday. This rider profile fits people who may be working adults or college students, and are on a committed schedule.
+- A non-subscriber is more likely to take longer rides during non-peak hours on a weekend. This rider profile fits people who may have a more flexible schedule or does not use Baywheels bikes regularly. They may be more spontaneous in using Baywheels bikes, or use them for leisure or enjoyment.
 
 
 #### Electric Bikes vs. Classic Bikes
-Baywheels users can be split into electric bike users and classic bike users.
+Baywheels users can also be split into electric bike users and classic bike users. 65% of rides use electric bikes, 35% use classic bikes
 ![newplot (9)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/e2bb7c00-3350-4a0e-b75d-79b11894adbf)
 
-65% of rides use electric bikes, 35% use classic bikes, less than 0.001% use docked bikes. However, there is no significant preference of either type of bike. The median duration of a classic bike trip is longer on the weekends. The median sitance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
-![newplot (10)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/24638344-5d90-475a-9ecb-02e39b1bc144)
+As we do not know the how many electric bikes and classic bikes that the operator has provided, it is difficult to determine if the this 65-35 ratio is reflecting the ratio of bikes provided by the operator or if it is reflecting the true preferences of the customers. As a baseline, there are 1.85 more rides that use an electric bike compared to a classic bike. 
+At first glance, this ratio of electric bikes to classic bikes does not seem to change across the week. The ratio remains at approximately 1.8 with a slight peak on Friday, when it reaches 1.9 electric bikes to classic bikes.
+![newplot (19)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/57f66fe5-c5ae-4d02-9578-5146e334ac4b)
+
+However, when we take a closer look at the ratio based on membership type, we notice a significant difference. For subscribers, the ratio of electric bikes to classic bikes has a lower ratio of 1.63, while non-subscribers significantly prefer electric bikes. Non-subscribers are at a whopping 2.2 electric bike rides to every classic bike ride! Electric bikes can carry the user a great distance with little effort on the user's part. On the other hand, a significant number of subscribers seem to prefer classic bikes more than electric bikes. A potential explanation might be that as working adults with a busy schedule, subscribers take the opportunity to use classic Baywheels bikes to travel and exercise at the same time.
+![newplot (21)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/7dfac7c0-5311-41f4-918c-ffe78c62f5d3)
+
+
+We also note that the median duration of a classic bike trip tends to be longer towards the end of the week, 
 ![newplot (11)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/df457299-6f9e-4f82-9387-919313253277)
+
+The median distance of an electric bike trip is longer than the median distance of a classic bike trip for all days.
 ![newplot (12)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/7bcf4756-808d-492d-962c-6fe4d9496534)
 
+Constructing a profile of each type of bike user, we can say:
+- The preference for electric bikes to 
 
 #### Stations With High Demand of Bikes
 The top 10 stations with the most outgoing traffic are also the stations with the most incoming traffic and likewise for the stations with the least traffic. The demand for bikes are the greatest at Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St on the weekdays at 5pm. Likewise the supply of bikes are greatest at these 3 stations at 8am.
@@ -89,13 +100,11 @@ Over the week, the demand for bikes are greatest at Page St at Masonic Ave and L
 
 The preferences of members and casual users are significantly different. Trips by members are shorter and more frequent during the peak hours of weekdays, while casual customers prefer trips that are longer and during off-peak hours or weekends. We can infer that most members are working adults or college students with a fixed schedule and need for reliable transportation. Casual customers on the other hand are more likely to make a trip out of convenience or spontaneity. 
 
-We recommend providing more electric bikes to members for speed and efficiency, and more classic bikes to casual users.
-
-We also recommend that targeted ad campaigns towards members and casual users differ in the kinds of promotions being offered. For example, members might be more likely to enjoy a discount on recurring monthly subscriptions while casual users might be more likely to enjoy one-time promotions.
+We recommend that targeted ad campaigns towards members and casual users differ in the kinds of promotions being offered. For example, members might be more likely to enjoy a discount on recurring monthly subscriptions while casual users might be more likely to enjoy one-time promotions. 
 
 **Do the needs of the customers differ by the type of bike they use? How do they differ and how can the company cater to these needs?**
 
-There is no significant preference for the type of bike provided by the service. As there is no significant difference in preference for electric and classic bikes, we have no recommendation to provide more of either type of bike as a whole. However, we recommend the company keep in mind the ratio of electric and classic bikes across stations when doing daily rebalancing. For example, more electric bikes can be distributed to stations that are frequented during weekday peak hours (such as Howard St at Beale St, Salesforce Transit Center (Natoma St at 2nd St) and Post St at Kearny St) to cater to working adults, while classic bikes can be distributed to stations near parks.
+There is no significant preference by the overal customer base for the type of bike provided by the service, although we note that subscribers prefer classic bikes while non-subscribers prefer electric bikes. This is in line with subscribers apparently having a fixed schedule, either for work or for exercise, while non-subscribers prefer electric bikes that can travel great distance with little effort. However, as the overall preference for electric and classic bikes, we have no recommendation to provide more of either type of bike as a whole. Still, keeping the preferences of subscribers and non-subscribers in mind, we suggest that the company provide faster classic bikes for subscribers and more comfortable electric bikes for non-subscribers.
 
 Electric bikes accrue a higher mileage than classic bikes across all days of the week. Due to heavily usage, electric bikes may be at a higher risk of wear and tear compared to classic bikes. Therefore we would recommend that maintenance for electric bikes occur more frequently than classic bikes.
 
@@ -106,7 +115,4 @@ In terms of rebalancing, the demand for bikes are greatest at Page St at Masonic
 **Next Steps** \
 Given the true location of each station and the cost of transporting bikes, there is an opportunity to optimize the rebalancing process of bikes, both overnight and during the day. This will allow the company to efficiently allocate resources to the rebalancing of bikes at each station with greater precision of the exact hour and minute when demand is the greatest (at the moment, we only have an estimate).
 
-We will further explore the preferences of members and casual users through binary classification techniques. This will allow us to identify the features that are most strongly associated with subscribers. This way, the company may be able to identify casual users that have to potential to become members. The company may then be able to send such users targeted adviertisements to convince them. [See part 2 of the project here]().
-
-## References:
-1.
+We can further explore the preferences of members and casual users through binary classification techniques. This will allow us to identify the features that are most strongly associated with subscribers. This way, the company may be able to identify casual users with certain habits that have to potential to become members. The company may then be able to send such users targeted adviertisements to convince them.
