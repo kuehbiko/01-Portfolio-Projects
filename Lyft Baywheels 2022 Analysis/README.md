@@ -23,20 +23,26 @@ The optimization of rebalancing is a complex problem that we will only briefly t
 Overall, our findings can be summarized thus:
 1. Subscribers are more likely to use the bikes for short distances during peak hours on weekdays. Non-subscribers prefer to use bikes for leisure during offpeak hours and on weekends. Thus the company may provide fast and reliable electric bikes for members, and comfortable classic bikes for casual users
 2. Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear. The company may wish to check on the condition of these bikes more often.
-3. Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight.
+3. Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day; more bikes can be allocated to these stations during rebalancing overnight. Howard St at Beale St and Post St at Kearny St stations have some of the highest mid-day deficits during evening rush hours; special effort can be taken during mid-day rebalancing to supply bikes to these stations at 5pm.
 
 
 ## Data Understanding
 The dataset used contains records of individual rides made via a bike-sharing system covering the greater San Francisco Bay area in 2022. It provides details of each ride, such as a unique ride ID, start and end stations, start and end coordinates, bike type and membership type.
 
-The data is made up of over 2.5 million rows of data. Of 2.5 million, 400,000 rows were missing the start, end, or both stations of trips, and 2000 rows were missing endpoint coordinates.
+The data is made up of over 2.5 million rows of data. Of 2.5 million, 400,000 rows were missing the start, end, or both stations of trips, and 2000 rows were missing endpoint coordinates. By comparing station name and station ID, we were able to fill in only about 2700 missing station names. 
+
+With the datetime python package, we were able to create columns for:
+- Trip duration in minutes
+- Month the trip started
+- Day the trip started
+- Hour of the day the trip started
+
+With the math python package, we were able to define the Haversine function in python. The Haversine distance can be defined as the angular distance between two locations on the Earth’s surface [[2](https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b). Using this function and the start/endpoint coordinates, we were able to create a new calculated column for the total distance of each trip in kilometers.
 
 The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
 ## Analysis
 #### Subscribers vs. Non-Subscribers
-Here are some of the most notable trends we found:
-
 There are more trips by members on weekdays, and more trips by casual users on weekends. By tallying both, we can see that the number of trips are higher during the weekdays and lower during the weekends. Conversely, median duration of trips are lower during the weekdays and higher during the weekends
 ![newplot (28)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/105becf9-8d8b-4849-8d4b-dfb987a8c690)
 ![newplot (29)](https://github.com/kuehbiko/01-Portfolio-Projects/assets/88494428/723f7d58-df3a-46b7-a031-ca42ee452928)
