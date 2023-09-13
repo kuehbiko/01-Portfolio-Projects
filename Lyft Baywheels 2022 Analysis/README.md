@@ -21,9 +21,9 @@ The optimization of rebalancing is a complex problem that we will only briefly t
 
 **Summary of Findings** \
 Overall, our findings can be summarized thus:
-1. 
-2.
-3.
+1. Subscribers are more likely to use the bikes for short distances during peak hours on weekdays. Non-subscribers prefer to use bikes for leisure during offpeak hours and on weekends. Thus the company may provide fast and reliable electric bikes for members, and comfortable classic bikes for casual users
+2. Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear. The company may wish to check on the condition of these bikes more often.
+3. Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight.
 
 
 ## Data Understanding
