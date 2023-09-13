@@ -12,11 +12,9 @@ To achieve this, we aim to answer the following questions:
 3. At which stations can Lyft focus more on rebalancing efforts to alleviate bike shortage for Baywheels users?
 
 **What is rebalancing?** \
-Per Freund et al. pg 2 [[1]](https://people.orie.cornell.edu/shane/pubs/BSOvernight.pdf), rebalancing is an optimization problem that refers to meeting demand at certain stations by relocating them and temporarily increasing station capacity, and is a key challenge faced by operators providing such rideshare services.  
+Rebalancing is an optimization problem that refers to meeting demand at certain stations by relocating them and temporarily increasing station capacity, and is a key challenge faced by operators providing such rideshare services [[1](https://people.orie.cornell.edu/shane/pubs/BSOvernight.pdf)].  
 
-In the most common approach, trucks are used to
-move bikes to high-demand areas. This is particularly effective overnight, when
-both traffic and demand are low. During the day, vehicular traffic impairs these
+In the most common approach, trucks are used to move bikes to high-demand areas. This is particularly effective overnight, when both traffic and demand are low. During the day, vehicular traffic impairs these
 efforts, and instead operators use trikes to transport a smaller number of bikes across stations, or corrals to artificially increase the capacity of stations.
 
 The optimization of rebalancing is a complex problem that we will only briefly touch on in this analysis.
