@@ -29,7 +29,7 @@ Overall, our findings can be summarized thus:
 ## Data Understanding
 The dataset used contains records of individual rides made via a bike-sharing system covering the greater San Francisco Bay area in 2022. It provides details of each ride, such as a unique ride ID, start and end stations, start and end coordinates, bike type and membership type.
 
-The data is made up of over 2.5 million rows of data. Of this 2.5 million, 400,000 rows were missing the start, end, or both stations of trips, and 2000 rows were missing endpoint coordinates.
+The data is made up of over 2.5 million rows of data. Of 2.5 million, 400,000 rows were missing the start, end, or both stations of trips, and 2000 rows were missing endpoint coordinates.
 
 The original data is available on [Lyft's System Data page](https://www.lyft.com/bikes/bay-wheels/system-data).
 
