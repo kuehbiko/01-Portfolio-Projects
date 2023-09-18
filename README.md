@@ -5,7 +5,9 @@ Browse a high-level overview of all my portfolio projects or click the links to 
 **Topics:** Exploratory Data Analysis, Data Visualization, Data Storytelling
 **Tools:** Python (pandas, nltk), PostgreSQL, Tableau
 **Description:** Explored and visualized 20 years of Singapore's waste and recycling data from the NEA website to understand the trends in the waste generation and overall recycling rates over the years. Applied statistical linear regression to predict future recycling trends in Singapore, an understand if our goal of an overall recycling rate of 70% by 2023 is still achievable. We found:
-- uh
+- Singapore's recycling rate has been constantly increasing since 2003. However since 2018, restrictions on waste exports, increase in freight transportation costs and covid-19 have dealt us significant blows.
+- According to data from 2020 to 2022, our overall recycling rate has recovered slightly, increasing by 5% in 2021 and 2% in 2022. However, this is likely due to the uptick of activities in the wake of the country recovering from covid-19 restrictions. 
+- For specific materials, plastic recycling rates have been declining since 2007, and is the material with one of the lowest recycling rates, second only to textile and leather.
 
 ### [💼 Salifort Motors HR Predictive Analysis with Binary Classification](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Salifort%20Motors%20HR%20Predictive%20Analysis)
 **Topics:** Data Analysis, Predictive Analysis, HR Analysis, Machine Learning, Logistic Regression, Decision Tree, Binary Classification \
