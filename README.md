@@ -1,7 +1,7 @@
 # Portfolio Projects
-Browse a high-level overview of all my portfolio projects or click the links to get a deeper understanding!
+Browse a high-level overview of all my portfolio projects!
 
-### [♻️ Visualizing 2003-2022 Waste Generation and Recycling Trends in Singapore]
+### [♻️ Visualizing 2003-2022 Waste Generation and Recycling Trends in Singapore](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Waste%20and%20Recycling%20Trends%20in%20Singapore)
 **Topics:** Exploratory Data Analysis, Data Visualization, Data Storytelling
 **Tools:** Python (pandas, nltk), PostgreSQL, Tableau
 **Description:** Explored and visualized 20 years of Singapore's waste and recycling data from the NEA website to understand the trends in the waste generation and overall recycling rates over the years. Applied statistical linear regression to predict future recycling trends in Singapore, an understand if our goal of an overall recycling rate of 70% by 2023 is still achievable. We found:
