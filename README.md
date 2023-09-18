@@ -1,6 +1,12 @@
 # Portfolio Projects
 Browse a high-level overview of all my portfolio projects or click the links to get a deeper understanding!
 
+### [♻️ Visualizing 2003-2022 Waste Generation and Recycling Trends in Singapore]
+**Topics:** Exploratory Data Analysis, Data Visualization, Data Storytelling
+**Tools:** Python (pandas, nltk), PostgreSQL, Tableau
+**Description:** Explored and visualized 20 years of Singapore's waste and recycling data from the NEA website to understand the trends in the waste generation and overall recycling rates over the years. Applied statistical linear regression to predict future recycling trends in Singapore, an understand if our goal of an overall recycling rate of 70% by 2023 is still achievable. We found:
+- uh
+
 ### [💼 Salifort Motors HR Predictive Analysis with Binary Classification](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Salifort%20Motors%20HR%20Predictive%20Analysis)
 **Topics:** Data Analysis, Predictive Analysis, HR Analysis, Machine Learning, Logistic Regression, Decision Tree, Binary Classification \
 **Tools:** Python (pandas, scipy, sci-kit learn, seaborn, matplotlib) \
@@ -16,7 +22,6 @@ Browse a high-level overview of all my portfolio projects or click the links to 
 - Subscribers are more likely to use the bikes as reliable transportation to work during peak hours, while non-subscribers prefer to use bikes for leisure during offpeak hours and on weekends. Subscribers prefer classic bikes by a small margin, while non-subscribers strongly prefer electric bikes. Thus provide fast classic bikes for subscribers, and comfortable electric bikes for non-subscribers.
 - Electric bikes are utilized for longer distances, accruing greater mileage in a shorter period of time and thus may be more prone to wear and tear. The company may wish to check on the condition of these bikes more often
 - Page St at Masonic Ave and Leavenworth St at Broadway stations have the greatest deficit in bikes at the end of the day. More docks can be placed at these stations, and more bikes can be allocated to these stations during rebalancing overnight. 
-
 
 ### [🎮 Video Game Sales Exploratory Analysis and Hypothesis Testing](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Video%20Game%20Sales%20Exploratory%20Analysis)
 **Topics:** Data Analysis, Exploratory Data Analysis, Data Cleaning, Data Wrangling, Data Visualization, Hypothesis Testing \
