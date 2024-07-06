@@ -38,19 +38,19 @@ Browse a high-level overview of all my portfolio projects!
 # Rework
 # Contents
 ## 1. Credit Card Loan Defaults
-#### Date Completed: Jun 2024
-#### Topics: Data Exploration, Loan Default Prediction, Customer Segmentation
-#### Tools: Python
-#### Summary:
+**Date Completed:** Jun 2024 \
+**Topics:** Data Exploration, Loan Default Prediction, Customer Segmentation \
+**Tools:** Python \
+**Summary:**
 
-## Project 2
-#### Date Completed:
-#### Topics:
-#### Tools:
-#### Summary:
+## 2. Salifort Motors HR Churn Analysis
+**Date Completed:** \
+**Topics:** Data Exploration, Churn Prediction \
+**Tools:** \
+**Summary:**
 
-## Project 3
+## Lyft Baywheels 2022 Exploratory Data Analysis
 #### Date Completed:
-#### Topics:
+#### Topics: Data Exploration, Data Visualization
 #### Tools:
 #### Summary:
