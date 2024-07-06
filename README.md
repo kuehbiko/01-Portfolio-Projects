@@ -43,13 +43,13 @@ Browse a high-level overview of all my portfolio projects!
 **Tools:** Python \
 **Summary:**
 
-## 2. Salifort Motors HR Churn Analysis
+## 2. [Salifort Motors HR Churn Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Salifort%20Motors%20HR%20Predictive%20Analysis)
 **Date Completed:** \
 **Topics:** Data Exploration, Churn Prediction \
 **Tools:** \
 **Summary:**
 
-## 3. Lyft Baywheels EDA
+## 3. [Lyft Baywheels EDA](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Lyft%20Baywheels%202022%20Analysis)
 **Date Completed:** \
 **Topics:** Data Exploration, Data Visualization \
 **Tools:** \
