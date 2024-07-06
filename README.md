@@ -50,7 +50,7 @@ Browse a high-level overview of all my portfolio projects!
 **Summary:**
 
 ## 3. Lyft Baywheels EDA
-#### Date Completed:
-#### Topics: Data Exploration, Data Visualization
-#### Tools:
-#### Summary:
+**Date Completed:** \
+**Topics:** Data Exploration, Data Visualization \
+**Tools:** \
+**Summary:**
