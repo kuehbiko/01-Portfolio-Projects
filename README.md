@@ -33,3 +33,24 @@ Browse a high-level overview of all my portfolio projects!
 - Visualized trends of consumer preferences of genre, platform and publisher. Constructed a profile of consumers per region, noting significant difference between Western and Japanese consumer preferences.
 - Through hypothesis testing, found that the average user ratings of the Xbox One and PC platforms are the same, while the average user ratings for Action and Sports genres are different.
 - Finally, provided recommendations on potentially popular platforms, genres for video game sales to boost revenue for video game retailers.
+
+
+# Rework
+# Contents
+## 1. Credit Card Loan Defaults
+#### Date Completed: Jun 2024
+#### Topics: Data Exploration, Loan Default Prediction, Customer Segmentation
+#### Tools: Python
+#### Summary:
+
+## Project 2
+#### Date Completed:
+#### Topics:
+#### Tools:
+#### Summary:
+
+## Project 3
+#### Date Completed:
+#### Topics:
+#### Tools:
+#### Summary:
