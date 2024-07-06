@@ -49,7 +49,7 @@ Browse a high-level overview of all my portfolio projects!
 **Tools:** \
 **Summary:**
 
-## Lyft Baywheels 2022 Exploratory Data Analysis
+## 3. Lyft Baywheels EDA
 #### Date Completed:
 #### Topics: Data Exploration, Data Visualization
 #### Tools:
