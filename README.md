@@ -37,19 +37,19 @@ Browse a high-level overview of all my portfolio projects!
 
 # Rework
 # Contents
-## 1. Credit Card Loan Defaults
+## 1. [Credit Card Loan Defaults]()
 **Date Completed:** Jun 2024 \
 **Topics:** Data Exploration, Loan Default Prediction, Customer Segmentation \
 **Tools:** Python \
 **Summary:**
 
-## 2. [Salifort Motors HR Churn Analysis](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Salifort%20Motors%20HR%20Predictive%20Analysis)
+## 2. [Salifort Motors HR Churn Analysis]()
 **Date Completed:** \
 **Topics:** Data Exploration, Churn Prediction \
 **Tools:** \
 **Summary:**
 
-## 3. [Lyft Baywheels EDA](https://github.com/kuehbiko/01-Portfolio-Projects/tree/main/Lyft%20Baywheels%202022%20Analysis)
+## 3. [Lyft Baywheels EDA]()
 **Date Completed:** \
 **Topics:** Data Exploration, Data Visualization \
 **Tools:** \
