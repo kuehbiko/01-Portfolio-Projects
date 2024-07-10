@@ -1,4 +1,4 @@
-# Contents
+# Portfolio Projects
 ## 1. [Credit Card Loan Defaults]()
 **Date Completed:** Jun 2024 \
 **Topics:** Data Exploration, Loan Default Prediction, Customer Segmentation \
